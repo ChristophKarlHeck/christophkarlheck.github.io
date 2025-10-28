@@ -1,11 +1,14 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.christophkarlheck.test2drive",
       "sha256_cert_fingerprints": [
-        "YOUR_SHA256_FINGERPRINT"
+        "AA:AA:CA:A8:FA:6A:D7:24:36:92:17:00:62:FA:A3:23:E7:A6:6B:9C:B8:91:67:C5:07:2A:9A:EF:F2:4C:A9:07"
       ]
     }
   }
